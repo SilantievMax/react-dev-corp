@@ -9,6 +9,7 @@ const App = () => {
   return (
     <>
       <Header />
+      Hi
       <main>
         <Team />
       </main>
