@@ -11,6 +11,7 @@ const App = () => {
       Hi
       <main>
         hello
+        SILANTIEVMAX
         <Team />
       </main>
       <Footer />
