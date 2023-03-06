@@ -12,6 +12,7 @@ const App = () => {
       <main>
         hello
         ZOOM
+        SILANTIEVMAX
         <Team />
       </main>
       <Footer />
