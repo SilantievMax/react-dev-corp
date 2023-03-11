@@ -1,3 +1,4 @@
+import Nav from '../generic/Nav/Nav'
 import styles from './Header.module.css'
 
 const Header = () => {
@@ -6,20 +7,7 @@ const Header = () => {
       <a href='#' className={styles.link}>
         ЛОГОТИП
       </a>
-      <nav className={styles.nav}>
-        <a href='#about' className={styles.link_site}>
-          О НАС
-        </a>
-        <a href='#product' className={styles.link_site}>
-          ПРОДУКТЫ
-        </a>
-        <a href='#team' className={styles.link_site}>
-          КОМАНДА
-        </a>
-        <a href='#contacts' className={styles.link_site}>
-          КОНТАКТЫ
-        </a>
-      </nav>
+      <Nav />
       <div className={styles.continer}>
         <div className={styles.btn_before}>
           RU{' '}

@@ -3,6 +3,7 @@ import styles from './Footer.module.css'
 import ico1 from '../../assets/svg/Envelope.svg'
 import ico2 from '../../assets/svg/Telegram.svg'
 import ico3 from '../../assets/svg/Twitch.svg'
+import Nav from '../generic/Nav/Nav'
 
 const Footer = () => {
   return (
@@ -13,20 +14,7 @@ const Footer = () => {
             ЛОГОТИП
             <span>Учись. Общайся. Монетизируй.</span>
           </a>
-          <nav className={styles.nav}>
-            <a href='#' className={styles.link_site}>
-              О НАС
-            </a>
-            <a href='#' className={styles.link_site}>
-              ПРОДУКТЫ
-            </a>
-            <a href='#' className={styles.link_site}>
-              КОМАНДА
-            </a>
-            <a href='#' className={styles.link_site}>
-              КОНТАКТЫ
-            </a>
-          </nav>
+          <Nav />
           <div className={styles.icons}>
             <a href='#' className={styles.ico}>
               <img src={ico1} />

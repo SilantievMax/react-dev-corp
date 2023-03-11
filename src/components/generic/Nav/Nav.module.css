@@ -1,0 +1,12 @@
+.link_site {
+    font-family: 'RobotoMono-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.3em;
+    color: #bdbdbd;
+  }
+  
+  .link_site:not(:last-child) {
+    margin-right: 50px;
+  }
+  
