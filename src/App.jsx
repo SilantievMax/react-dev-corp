@@ -1,17 +1,17 @@
 import React from 'react'
 import Footer from './components/Footer/Footer.jsx'
 import Header from './components/Header/Header.jsx'
-import Team from './components/Team/Team.jsx'
 import 'normalize.css'
+import Layout from './components/Layout/Layout.jsx'
 
 const App = () => {
   return (
     <>
-      <Header />
-      <main>
-        
-      </main>
-      <Footer />
+      <Layout>
+        <Header />
+        <main></main>
+        <Footer />
+      </Layout>
     </>
   )
 }
