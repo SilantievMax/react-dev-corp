@@ -10,7 +10,7 @@ const App = () => {
       <Layout>
         <Header />
         <main></main>
-        <Footer />
+        {/* <Footer /> */}
       </Layout>
     </>
   )
