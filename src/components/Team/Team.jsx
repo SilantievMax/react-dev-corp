@@ -3,18 +3,17 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Card from './Card/Card'
 import styles from './Team.module.css'
 import names from '../../utils/namse'
+import Heading from '../generic/Heading/Heading'
 
 const Team = () => {
   return (
     <section id='team' className={styles.team}>
-      <div className={styles.continer}>
-        <h2 className={styles.heading}>Команда</h2>
-        <p className={styles.text}>
-          Всем известно, что сердцем проекта является команда. Это люди, которые
+      <Heading
+        heading='Команда'
+        text='Всем известно, что сердцем проекта является команда. Это люди, которые
           воплощают миссию экосистемы в жизнь. Без них не было бы развития
-          проекта.
-        </p>
-      </div>
+          проекта.'
+      />
       <div className={styles.cards}>
         <Swiper
           spaceBetween={50}

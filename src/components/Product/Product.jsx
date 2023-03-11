@@ -1,10 +1,11 @@
 import React from 'react'
+import Heading from '../generic/Heading/Heading'
 import styles from './Product.module.css'
 
 const Product = () => {
   return (
     <section id='product' className={styles.product}>
-      <h3 className={styles.heading}>продукты</h3>
+      <Heading heading='продукты' />
       <ul className={styles.list}>
         <li className={styles.item}>
           <div className={styles.name}>

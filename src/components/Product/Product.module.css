@@ -2,14 +2,6 @@
   margin-top: 250px;
 }
 
-.heading {
-  font-family: 'Unbounded-Bold';
-  font-size: 64px;
-  line-height: 79px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
 .item {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -55,8 +47,8 @@
 }
 
 .link_continer {
-    display: flex;
-    justify-content: right;
+  display: flex;
+  justify-content: right;
 }
 
 .link {

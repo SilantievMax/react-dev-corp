@@ -4,18 +4,17 @@ import ico2 from '../../assets/svg/ico1.svg'
 import ico3 from '../../assets/svg/ico2.svg'
 import ico4 from '../../assets/svg/ico3.svg'
 import ico1 from '../../assets/svg/ico4.svg'
+import Heading from '../generic/Heading/Heading'
 
 const About = () => {
   return (
-    <section id="about" className={styles.about}>
-      <div className={styles.continer}>
-        <h2 className={styles.heading}>О НАС</h2>
-        <p className={styles.text}>
-          Проект Invoctus Ecosystem - экосистема, целью которой является сделать
+    <section id='about' className={styles.about}>
+      <Heading
+        heading='О НАС'
+        text='Проект Invoctus Ecosystem - экосистема, целью которой является сделать
           обучение доступным для всех. А также дать человеку возможность
-          получить нужные ему знания, используя продукты экосистемы.
-        </p>
-      </div>
+          получить нужные ему знания, используя продукты экосистемы.'
+      />
       <ul className={styles.list}>
         <li className={styles.item}>
           <img src={ico1} className={styles.img} />

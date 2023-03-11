@@ -8,6 +8,7 @@ import About from './components/About/About.jsx'
 import Product from './components/Product/Product.jsx'
 import Team from './components/Team/Team.jsx'
 import Test from './components/Test/Test.jsx'
+import Contacts from './components/Contacts/Contacts.jsx'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <About />
           <Product />
           <Team />
+          <Contacts />
         </main>
       </Layout>
       <Footer />
