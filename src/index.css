@@ -1,13 +1,87 @@
-body {
-  /* margin: 0; */
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'RobotoMono-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Bebas Neue Cyrillic'),
+    url('./assets/fonts/RobotoMono-Bold.woff2') format('woff2'),
+    url('./assets/fonts/RobotoMono-Bold.woff') format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'RobotoMono-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Gilroy-Light'),
+    url('./assets/fonts/RobotoMono-Medium.woff2') format('woff2'),
+    url('./assets/fonts/RobotoMono-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Unbounded-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Gilroy-Light'),
+    url('./assets/fonts/Unbounded-Bold.woff2') format('woff2'),
+    url('./assets/fonts/Unbounded-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Unbounded-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Gilroy-Light'),
+    url('./assets/fonts/Unbounded-Light.woff2') format('woff2'),
+    url('./assets/fonts/Unbounded-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Unbounded-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Gilroy-Light'),
+    url('./assets/fonts/Unbounded-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Unbounded-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Unbounded-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gilroy-Light'),
+    url('./assets/fonts/Unbounded-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Unbounded-Regular.woff') format('woff');
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Unbounded-Light', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
