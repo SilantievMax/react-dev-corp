@@ -5,6 +5,7 @@ import 'normalize.css'
 import Layout from './components/Layout/Layout.jsx'
 import Banner from './components/Banner/Banner.jsx'
 import About from './components/About/About.jsx'
+import Product from './components/Product/Product.jsx'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <main>
           <Banner />
           <About />
+          <Product />
         </main>
       </Layout>
       <Footer />
