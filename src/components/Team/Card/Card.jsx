@@ -1,15 +1,15 @@
-import React from "react";
-// import './Card.css'
+import React from 'react'
 import styles from './Card.module.css'
 
-const Card = (props) => {
-  console.log(styles);
+const Card = ({name, scill, img}) => {
+  console.log(styles)
   return (
-    <>
-      <div className={styles.red}>card</div>
-      <div className={styles.text}>{props.name}</div>
-    </>
-  );
-};
+    <div className={styles.card}>
+      <img className={styles.img} src={img} alt="" />
+      <div className={styles.name}>{name}</div>
+      <div className={styles.scill}>{scill}</div>
+    </div>
+  )
+}
 
-export default Card;
+export default Card

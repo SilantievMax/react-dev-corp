@@ -6,6 +6,8 @@ import Layout from './components/Layout/Layout.jsx'
 import Banner from './components/Banner/Banner.jsx'
 import About from './components/About/About.jsx'
 import Product from './components/Product/Product.jsx'
+import Team from './components/Team/Team.jsx'
+import Test from './components/Test/Test.jsx'
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
           <Banner />
           <About />
           <Product />
+          <Team />
         </main>
       </Layout>
       <Footer />
