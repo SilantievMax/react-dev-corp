@@ -7,16 +7,16 @@ const Header = () => {
         ЛОГОТИП
       </a>
       <nav className={styles.nav}>
-        <a href='#' className={styles.link_site}>
+        <a href='#about' className={styles.link_site}>
           О НАС
         </a>
-        <a href='#' className={styles.link_site}>
+        <a href='#product' className={styles.link_site}>
           ПРОДУКТЫ
         </a>
-        <a href='#' className={styles.link_site}>
+        <a href='#team' className={styles.link_site}>
           КОМАНДА
         </a>
-        <a href='#' className={styles.link_site}>
+        <a href='#contacts' className={styles.link_site}>
           КОНТАКТЫ
         </a>
       </nav>

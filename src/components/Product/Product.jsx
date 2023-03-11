@@ -3,7 +3,7 @@ import styles from './Product.module.css'
 
 const Product = () => {
   return (
-    <section className={styles.product}>
+    <section id='product' className={styles.product}>
       <h3 className={styles.heading}>продукты</h3>
       <ul className={styles.list}>
         <li className={styles.item}>

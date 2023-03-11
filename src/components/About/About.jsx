@@ -7,7 +7,7 @@ import ico1 from '../../assets/svg/ico4.svg'
 
 const About = () => {
   return (
-    <section className={styles.about}>
+    <section id="about" className={styles.about}>
       <div className={styles.continer}>
         <h2 className={styles.heading}>О НАС</h2>
         <p className={styles.text}>
