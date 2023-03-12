@@ -1,11 +1,14 @@
 import React from 'react'
 import banner from '../../assets/images/banner.webp'
 import styles from './Banner.module.css'
+// import './Banner.css'
 
 const Banner = () => {
   return (
     <section className={styles.banner}>
-      <img src={banner} alt='banner' className={styles.img} />
+      <div className={styles.shake}>
+        <img src={banner} alt='banner' className={styles.img} />
+      </div>
       <div className={styles.continer}>
         <div className={styles.block_left}>
           <h2 className={styles.heading_left}>invoctus</h2>
