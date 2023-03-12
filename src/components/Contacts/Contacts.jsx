@@ -19,7 +19,7 @@ const Contacts = () => {
           <div className={styles.heading}>
             01<span>Выберите тему</span>
           </div>
-          <div className={styles.un_active}>
+          <div  className={styles.un_active}>
             <input type='radio' id='1' name='free' value='consultation' />
             <input type='radio' id='2' name='free' value='development' />
             <input type='radio' id='3' name='free' value='audit' />
@@ -67,7 +67,7 @@ const Contacts = () => {
           ></textarea>
           <div className={styles.continet_btn}>
             <button className={styles.btn} type='subbmit'>
-              ОТПРАВИТЬ
+              ОТПРАВИТЬ &#8594;
             </button>
           </div>
         </div>

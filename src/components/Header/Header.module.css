@@ -21,6 +21,7 @@
 }
 
 .btn_before {
+  cursor: not-allowed;
   font-family: 'RobotoMono-Medium';
   font-size: 16px;
   line-height: 20px;

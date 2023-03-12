@@ -27,6 +27,7 @@
 
 .un_active {
   position: absolute;
+  opacity: 0;
 }
 
 .radio {
