@@ -10,7 +10,7 @@ const Contacts = () => {
   return (
     <section id='contacts' className={styles.contacts}>
       <Heading
-        heading='контакты'
+        heading='FAQ'
         text='У тебя появились вопросы, можешь посмотреть в уже имеющихся вопросах
           или задать свой!'
       />
