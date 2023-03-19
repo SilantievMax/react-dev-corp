@@ -33,6 +33,10 @@
   margin-left: 37px;
 }
 
+.name span {
+  transition: opacity .3s;
+}
+
 .name span:hover {
   opacity: .8;
 }

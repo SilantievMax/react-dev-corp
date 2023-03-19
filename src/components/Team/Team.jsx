@@ -2,6 +2,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Card from './Card/Card'
 import styles from './Team.module.css'
+import 'swiper/css'
 import names from '../../utils/namse'
 import Heading from '../generic/Heading/Heading'
 

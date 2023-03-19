@@ -13,6 +13,11 @@
   border: 2px solid #dedaf5;
   border-radius: 20px;
   padding: 65px 60px;
+  transition: transform .5s;
+}
+
+.item:hover {
+  transform: scale(1.1);
 }
 
 .item:nth-child(1) {
