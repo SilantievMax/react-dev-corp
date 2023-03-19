@@ -3,6 +3,7 @@
   max-width: 1310px;
   width: 100%;
   display: block;
+  height: 450px;
   /* background-color: #fff; */
   overflow: hidden;
 }
@@ -11,14 +12,23 @@
   width: 1410px;
   width: 100%;
 
-  -webkit-animation-name: shake;
-  -webkit-animation-duration: 15s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -webkit-transform-origin: 50% 100%;
+  opacity: 0;
+  animation: fade 10s linear infinite;
 }
 
-@keyframes shake {
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* @keyframes shake {
   0% {
     -webkit-transform: translate(2px, 1px) rotate(0deg);
   }
@@ -52,8 +62,11 @@
   100% {
     -webkit-transform: translate(1px, -2px) rotate(-0.deg);
   }
-}
+} */
 
+.block_right {
+  width: 651px;
+}
 
 .continer {
   display: flex;
@@ -87,9 +100,11 @@
   color: #6044d2;
   display: flex;
   align-items: center;
+  float: right;
+  margin-bottom: 25px;
 }
 
-.text_right > span {
+.sdvig_text {
   border-left: 2px solid #6044d2;
   border-right: 2px solid #6044d2;
   padding-left: 15px;

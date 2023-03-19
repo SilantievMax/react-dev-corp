@@ -9,7 +9,10 @@ const Product = () => {
       <ul className={styles.list}>
         <li className={styles.item}>
           <div className={styles.name}>
-            01 <span>Invoc</span>
+            01
+            <a href='https://web.telegram.org/z/#5466811440' target='_blank'>
+              <span>Invoc</span>
+            </a>
           </div>
           <div className={styles.text}>
             Telegram Bot
@@ -21,7 +24,10 @@ const Product = () => {
         </li>
         <li className={styles.item}>
           <div className={styles.name}>
-            02 <span>EduCo</span>
+            02
+            <a href='#' target='_blank'>
+              <span title="Скоро будет ссылка">EduCo</span>
+            </a>
           </div>
           <div className={styles.text}>
             Приложение

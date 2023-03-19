@@ -42,4 +42,9 @@
   background: linear-gradient(94.43deg, #293bc8 5.77%, #c252e4 134.44%);
   border-radius: 50px;
   padding: 15px 22px;
+  transition: all 6s;
+}
+
+.btn:hover {
+  background: linear-gradient(34.43deg, #293bc8 5.77%, #c252e4 134.44%);
 }

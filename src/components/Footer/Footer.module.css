@@ -30,11 +30,27 @@
   margin-top: 20px;
 }
 
+.link > a {
+  margin-left: 0;
+}
+
 .icons {
   display: flex;
   align-items: center;
 }
 
+.icons > a {
+  margin-left: 0;
+}
+
 .ico:not(:last-child) {
   margin-right: 20px;
+}
+
+.ico {
+  opacity: 0.8;
+}
+
+.ico:hover {
+  opacity: 1;
 }

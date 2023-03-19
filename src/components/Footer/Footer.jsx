@@ -16,13 +16,13 @@ const Footer = () => {
           </a>
           <Nav />
           <div className={styles.icons}>
-            <a href='#' className={styles.ico}>
+            <a href='mailto:invoctusecosystem@gmail.com' className={styles.ico}>
               <img src={ico1} />
             </a>
-            <a href='#' className={styles.ico}>
+            <a href='https://t.me/AIwritecool' target="_blank" className={styles.ico}>
               <img src={ico2} />
             </a>
-            <a href='#' className={styles.ico}>
+            <a href='https://discord.gg/zNCYdgAf5G' target="_blank" className={styles.ico}>
               <img src={ico3} />
             </a>
           </div>

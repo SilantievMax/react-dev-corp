@@ -1,12 +1,16 @@
 .link_site {
-    font-family: 'RobotoMono-Bold';
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.3em;
-    color: #bdbdbd;
-  }
-  
-  .link_site:not(:last-child) {
-    margin-right: 50px;
-  }
-  
+  font-family: 'RobotoMono-Bold';
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.3em;
+  color: #bdbdbd;
+  transition: color .5s;
+}
+
+.link_site:not(:last-child) {
+  margin-right: 10px;
+}
+
+.link_site:hover {
+  color: #f1ecec;
+}

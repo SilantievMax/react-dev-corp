@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './Card.module.css'
 
 const Card = ({name, scill, img}) => {
-  console.log(styles)
   return (
     <div className={styles.card}>
       <img className={styles.img} src={img} alt="" />

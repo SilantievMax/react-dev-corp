@@ -1,14 +1,49 @@
-import React from 'react'
-import banner from '../../assets/images/banner.webp'
+import React, { useEffect, useState } from 'react'
+import banner1 from '../../assets/images/banner1.webp'
+import banner2 from '../../assets/images/banner2.webp'
+import banner3 from '../../assets/images/banner3.webp'
 import styles from './Banner.module.css'
-// import './Banner.css'
+
+const BannerImg = () => {
+  const bannerArry = [banner1, banner2, banner3]
+  const [countImg, setCountImg] = useState(0)
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCountImg(countImg + 1)
+      if (countImg === bannerArry.length - 1) setCountImg(0)
+    }, 10000)
+    return () => clearInterval(timer)
+  })
+  const renderImg = (
+    <img src={bannerArry[countImg]} alt='banner' className={styles.img} />
+  )
+  return <div className={styles.shake}>{renderImg}</div>
+}
+
+const Printtext = () => {
+  const textArry = 'учись. общайся. монетизируй.'.split('')
+  const [count, setCount] = useState(0)
+  const [text, setText] = useState('')
+
+  const countText = () => {
+    if (count < textArry.length) {
+      setCount(count + 1)
+      setText(text + textArry[count])
+    }
+  }
+
+  setTimeout(countText, 200)
+  return (
+    <>
+      <span className={styles.sdvig_text}>{text}</span>
+    </>
+  )
+}
 
 const Banner = () => {
   return (
     <section className={styles.banner}>
-      <div className={styles.shake}>
-        <img src={banner} alt='banner' className={styles.img} />
-      </div>
+      <BannerImg />
       <div className={styles.continer}>
         <div className={styles.block_left}>
           <h2 className={styles.heading_left}>invoctus</h2>
@@ -19,7 +54,7 @@ const Banner = () => {
         </div>
         <div className={styles.block_right}>
           <h4 className={styles.text_right}>
-            <span> учись. общайся. монетизируй.</span>
+            <Printtext />
             <svg
               width='40'
               height='52'
