@@ -1,0 +1,111 @@
+.contacts {
+  margin-top: 250px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
+}
+
+.continer_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Unbounded-Bold';
+  font-size: 24px;
+  line-height: 30px;
+  color: #828282;
+}
+
+.heading > span {
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.radio {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.label {
+  border: 2px solid #dedaf5;
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Unbounded-Medium';
+  font-size: 16px;
+  line-height: 25px;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+
+.img {
+  max-width: 100px;
+  margin-bottom: 55px;
+}
+
+.radio_input {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio_input:checked ~ .label {
+  border: 2px solid #887dd6;
+}
+
+.input {
+  height: 75px;
+  margin-top: 30px;
+  background-color: transparent;
+  outline: none;
+  padding: 30px 25px;
+  border: 2px solid #dedaf5;
+  border-radius: 5px;
+
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  line-height: 25px;
+  color: #e0e0e0;
+}
+
+.input::placeholder {
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  line-height: 25px;
+  color: #e0e0e0;
+}
+
+.input:nth-child(4) {
+  height: 320px;
+}
+
+.continet_btn {
+  display: flex;
+  justify-content: right;
+  margin-top: 30px;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: 'RobotoMono-Bold';
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+
+  border: none;
+  outline: none;
+  background: linear-gradient(94.43deg, #293bc8 5.77%, #c252e4 134.44%);
+  border-radius: 50px;
+  padding: 15px 40px;
+}

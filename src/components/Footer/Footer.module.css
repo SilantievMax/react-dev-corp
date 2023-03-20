@@ -1,0 +1,56 @@
+.footer {
+  border-top: 2px solid #333333;
+  margin-top: 150px;
+}
+
+.contuner {
+  display: flex;
+  align-items: center;
+  padding-top: 105px;
+  padding-bottom: 105px;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  font-family: 'RobotoMono-Bold';
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.3em;
+
+  color: #ffffff;
+}
+
+.link > span {
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  line-height: 25px;
+  color: #828282;
+  margin-top: 20px;
+}
+
+.link > a {
+  margin-left: 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons > a {
+  margin-left: 0;
+}
+
+.ico:not(:last-child) {
+  margin-right: 20px;
+}
+
+.ico {
+  opacity: 0.8;
+}
+
+.ico:hover {
+  opacity: 1;
+}
