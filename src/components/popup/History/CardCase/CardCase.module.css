@@ -1,0 +1,55 @@
+.card {
+  position: relative;
+  background: #483f68;
+  border-radius: 45px;
+  padding: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.img {
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+.blocl {
+  margin-left: 110px;
+}
+
+.heading {
+  font-family: 'Unbounded-Medium';
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.text {
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.soon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(51, 51, 51, 0.7);
+  border-radius: 45px;
+
+  font-family: 'Unbounded-Bold';
+  font-size: 96px;
+  line-height: 119px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
