@@ -19,29 +19,59 @@ const Contacts = () => {
           <div className={styles.heading}>
             01<span>Выберите тему</span>
           </div>
-          <div  className={styles.un_active}>
-            <input type='radio' id='1' name='free' value='consultation' />
-            <input type='radio' id='2' name='free' value='development' />
-            <input type='radio' id='3' name='free' value='audit' />
-            <input type='radio' id='4' name='free' value='testing' />
-          </div>
           <div className={styles.radio}>
-            <label className={styles.label} for='1'>
-              <img className={styles.img} src={ico4} alt='' />
-              Консультация
-            </label>
-            <label className={styles.label} for='2'>
-              <img className={styles.img} src={ico2} alt='' />
-              Разработка
-            </label>
-            <label className={styles.label} for='3'>
-              <img className={styles.img} src={ico3} alt='' />
-              Аудит
-            </label>
-            <label className={styles.label} for='4'>
-              <img className={styles.img} src={ico1} alt='' />
-              Тестирование
-            </label>
+            <div>
+              <input
+                className={styles.radio_input}
+                type='radio'
+                id='1'
+                name='free'
+                value='consultation'
+              />
+              <label className={styles.label} for='1'>
+                <img className={styles.img} src={ico4} alt='' />
+                Консультация
+              </label>
+            </div>
+            <div>
+              <input
+                className={styles.radio_input}
+                type='radio'
+                id='2'
+                name='free'
+                value='development'
+              />
+              <label className={styles.label} for='2'>
+                <img className={styles.img} src={ico2} alt='' />
+                Разработка
+              </label>
+            </div>
+            <div>
+              <input
+                className={styles.radio_input}
+                type='radio'
+                id='3'
+                name='free'
+                value='audit'
+              />
+              <label className={styles.label} for='3'>
+                <img className={styles.img} src={ico3} alt='' />
+                Аудит
+              </label>
+            </div>
+            <div>
+              <input
+                className={styles.radio_input}
+                type='radio'
+                id='4'
+                name='free'
+                value='testing'
+              />
+              <label className={styles.label} for='4'>
+                <img className={styles.img} src={ico1} alt='' />
+                Тестирование
+              </label>
+            </div>
           </div>
         </div>
         <div className={styles.continer_right}>
