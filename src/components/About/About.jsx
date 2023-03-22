@@ -58,7 +58,7 @@ const About = () => {
         <button onClick={() => setActive(!active)} className={styles.link} href='#'>
           REWARDS
         </button>
-        {active && <History />}
+        {active && <History setActive={setActive} />}
       </section>
     </>
   )

@@ -47,13 +47,19 @@ const historyArry = [
   }
 ]
 
-const History = () => {
+const History = ({setActive}) => {
   return (
     <div className={styles.popup}>
       <div className={styles.wrapper}>
+      <div onClick={() => setActive(false)} className={styles.exit}>X</div>
         <Heading heading='История' />
         {historyArry.map(e => (
-          <CardHistory key={e.id} id={e.id} img={e.img} description={e.description} />
+          <CardHistory
+            key={e.id}
+            id={e.id}
+            img={e.img}
+            description={e.description}
+          />
         ))}
         <Heading heading='кейсы' />
         {caseArry.map(e => (
