@@ -1,6 +1,5 @@
 import React from 'react'
 import Heading from '../../generic/Heading/Heading'
-import Layout from '../../Layout/Layout'
 import CardCase from './CardCase/CardCase'
 import styles from './History.module.css'
 import img1 from '../../../assets/images/history1.webp'

@@ -1,0 +1,151 @@
+.popup {
+  position: absolute;
+  background-color: #201c30;
+  padding: 58px 66px;
+  border-radius: 45px;
+  top: 0;
+  left: calc(50% - 362px);
+  z-index: 1000;
+}
+
+.head {
+  display: flex;
+}
+
+.head span {
+  font-family: 'Unbounded-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+  border-bottom: 3px solid #967cff;
+  margin-right: 280px;
+  line-height: 60px;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.form span {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  color: #777777;
+}
+
+.form span:not(:first-child) {
+  margin-top: 30px;
+}
+
+.form input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #b5b5b5;
+  outline: none;
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  color: #b5b5b5;
+}
+
+input::-moz-placeholder {
+  color: #b5b5b5;
+}
+input::-webkit-input-placeholder {
+  color: #b5b5b5;
+}
+
+.form_radio_btn {
+  display: inline-block;
+  margin-right: 25px;
+}
+.form_radio_btn input[type='radio'] {
+  display: none;
+}
+.form_radio_btn label {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #b5b5b5;
+  border-radius: 60px;
+  user-select: none;
+  padding: 20px 17px;
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  color: #b5b5b5;
+}
+
+/* Checked */
+.form_radio_btn input[type='radio']:checked + label {
+  border-color: #967cff;
+}
+
+/* Hover */
+.form_radio_btn label:hover {
+  color: white;
+}
+
+.projectIdea {
+  display: flex;
+}
+
+.projectIdea input {
+  display: none;
+}
+
+.projectIdea label {
+  margin-right: 30px;
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  color: #b5b5b5;
+}
+
+.projectIdea label:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2.5px solid gray;
+  margin-right: 11px;
+  border-radius: 50%;
+  padding: 1.5px;
+}
+
+.projectIdea input[type='radio']:checked + label:before {
+  background-color: #967cff;
+}
+
+.form button {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 50px;
+  background: #6044d2;
+  font-family: 'RobotoMono-Medium';
+  font-style: normal;
+  font-size: 20px;
+  color: #dedaf5;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experienceElement {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: 'Unbounded-Light';
+  font-size: 16px;
+  color: #b5b5b5;
+}
+
+.slideContainer {
+  margin-bottom: 30px;
+}

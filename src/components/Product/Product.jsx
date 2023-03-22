@@ -1,8 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Heading from '../generic/Heading/Heading'
+import BusinessFutureForm from '../popup/BusinessFutureForm/BusinessFutureForm'
 import styles from './Product.module.css'
 
 const Product = () => {
+  const [active, setActive] = useState(false)
+
   return (
     <section id='product' className={styles.product}>
       <Heading heading='продукты' />
@@ -53,10 +56,11 @@ const Product = () => {
         </li>
       </ul>
       <div className={styles.link_continer}>
-        <a href='#' className={styles.link}>
+        <button onClick={() => setActive(true)} className={styles.link}>
           ЗАРЕГИСТРИРОВАТЬСЯ
-        </a>
+        </button>
       </div>
+      {active && <BusinessFutureForm setOn={setActive}/>}
     </section>
   )
 }

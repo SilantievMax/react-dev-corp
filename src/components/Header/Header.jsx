@@ -1,7 +1,11 @@
+import { useState } from 'react'
 import Nav from '../generic/Nav/Nav'
+import BusinessFutureForm from '../popup/BusinessFutureForm/BusinessFutureForm'
 import styles from './Header.module.css'
 
 const Header = () => {
+  const [active, setActive] = useState(false)
+
   return (
     <header className={styles.header}>
       <a href='#' className={styles.link}>
@@ -26,10 +30,11 @@ const Header = () => {
             />
           </svg>
         </div>
-        <a href='#' className={styles.btn}>
+        <button onClick={() => setActive(true)} href='#' className={styles.btn}>
           Incubator 1.0
-        </a>
+        </button>
       </div>
+      {active && <BusinessFutureForm setOn={setActive}/>}
     </header>
   )
 }
