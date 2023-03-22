@@ -12,16 +12,6 @@ import Contacts from './components/Contacts/Contacts.jsx'
 const App = () => {
   return (
     <>
-<<<<<<< HEAD
-      <Header />
-      Hi
-      <main>
-        hello
-        ZOOM
-        SILANTIEVMAX
-        <Team />
-      </main>
-=======
       <Layout>
         <Header />
         <main>
@@ -32,7 +22,6 @@ const App = () => {
           <Contacts />
         </main>
       </Layout>
->>>>>>> silantievmax
       <Footer />
     </>
   )
