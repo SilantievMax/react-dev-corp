@@ -1,10 +1,11 @@
 .popup {
-    background-color: #201C30;
     position: absolute;
+    background-color: #201C30;
     padding: 58px 66px;
     border-radius: 45px;
     top: 0;
     left: calc(50% - 362px);
+    z-index: 1000;
 }
 
 .head {
