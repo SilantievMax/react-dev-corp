@@ -1,0 +1,12 @@
+.textarea {
+    width: 100%;
+    margin-top: 32px;
+    background: transparent;
+    border: 2px solid #B5B5B5;
+    outline:none;
+    resize: none;
+    padding: 8px;
+    font-family: 'Unbounded-Light';
+    font-size: 16px;
+    color: #B5B5B5;
+}
