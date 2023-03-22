@@ -1,11 +1,22 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000bc;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .popup {
-  position: absolute;
   background-color: #201c30;
   padding: 58px 66px;
   border-radius: 45px;
   top: 0;
   left: calc(50% - 362px);
-  z-index: 1000;
 }
 
 .head {
